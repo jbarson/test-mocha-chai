@@ -1,0 +1,19 @@
+{
+  "name": "test-mocha-chai",
+  "version": "1.0.0",
+  "description": "\"TDD with Mocha and Chai\"",
+  "main": "assert.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/repeatNumbers.test.js -w",
+    "hello": "echo 'Hello'"
+  },
+  "author": "Jon",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
